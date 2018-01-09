@@ -24,9 +24,7 @@ In this exercise, you will log into the Azure Portal using your Azure credential
 
 ### Exercise 2: Verify access to the Subscription
 In this exercise, you will verify the type of role you are assigned in this Subscription.
-1.	**Launch** a browser and **Navigate** to https://portal.azure.com. Login with your **Microsoft Azure** credentials.
-
-<img src="images/module4.jpg"/><br/>
+1.	From the previous step, **Navigate** to https://portal.azure.com.
 2. Click on **Microsoft Azure**  at the top left corner of the screen, to view the Dashboard.
 <img src="images/module5.jpg"/><br/>
 3. To toggle **show/hide** the Portal menu options with icon, **Click** on the **Show Menu** button.
