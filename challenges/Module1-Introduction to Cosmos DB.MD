@@ -47,6 +47,7 @@
 
 1.  Access PowerBI VM(Windows) via RDP, Open Internet Explorer inside the Windows VM and download the data which we would  migrate to cosmos DB by clicking [here](http://jsonstudio.com/wp-content/uploads/2014/02/stocks.zip)<br/>
 A zip file will download, extract and open the file to view the json data set.<br/>
+You can download the data migration tool inside the Windows VM [here](http://bit.ly/2D035fW) (http://bit.ly/2D035fW)
 2.  **Launch** your **data migration tool** by opening the **dtui.exe** application.<br/>
 <img src="images/migrationtool.jpg"/><br/>   
 3.  In the **DocumentDB Data Migration Tool** blade that appear, Click on **Next**.<br/>
