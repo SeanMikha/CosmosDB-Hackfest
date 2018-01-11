@@ -110,7 +110,13 @@ mongoimport --host <HOST>:<PORT> -u <USERNAME> -p <PASSWORD> --ssl --sslAllowInv
 
 ### Update Application to use Cosmos DB 
 
-1. Go back to Visual Studio Code IDE in Jump VM and and paste the **URI** value against **DOCUMENT_DB_ENDPOINT**, **PRIMARY KEY** against **DOCUMENT_DB_PRIMARYKEY**,type **contosoairdb3** against **DOCUMENT_DB_DATABASE** and **Primary Connection String** Against **MONGO_DB_COONECTION_STRING**(add database name contosoairdb3 before question mark in primary connection string) as in the config.js.<br/>
+1. Go back to Visual Studio Code IDE in Jump VM. In the file explorer under ContosoAir.Services find config.js and click on it.
+Now paste the following values from the Connecting String information in the Azure Portal into your config.js file:<br/>
+* **DOCUMENT_DB_ENDPOINT** = **URI**<br/>
+* **DOCUMENT_DB_PRIMARYKEY** = **PRIMARY KEY**<br/>
+* **DOCUMENT_DB_DATABASE** = **contosoairdb3**<br/>
+* **MONGO_DB_COONECTION_STRING** = **Primary Connection String**
+ (add database name contosoairdb3 before question mark in primary connection string)<br/>
 
 ```bash
 mongodb://cosmosdb12345:vMTETikja355VZjnJQGC3gwdLaR8xjNlpUq65loZVd4pLvmlG9PB25eqOb7V0EWFnvkqzd9GMp4vjiiDYGLahw==@cosmosdb12345.documents.azure.com:10255/**contosoairdb3**?ssl=true&replicaSet=globaldb
